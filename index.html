@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/login.css">
+</head>
+<body>
+	<div class="nav-wrap">
+		<div class="nav">
+			<img class="logo" src="/img/logo.png" alt=""><a href="#">飲食營養評估問卷</a>
+		</div>
+	</div>
+	
+    <div class="form-wrap">
+		<div class="tabs">
+			<h3 class="visiter-tab"><a class="active" href="#visiter-tab-content">受訪者入口</a></h3>
+			<h3 class="login-tab"><a href="#login-tab-content">營養師入口</a></h3>
+		</div><!--.tabs-->
+		<div class="tabs-content">
+			<div id="visiter-tab-content" class="active">
+				<form class="visiter-form" action="" method="post">
+					
+					<div class="help-text">
+						<p>請輸入隨郵件寄出之驗證碼</p>
+					</div><!--.help-text-->
+
+					<input type="password" class="input" id="user_pass" autocomplete="off" placeholder="在此輸入認證碼">
+
+					
+					<input type="submit" class="button" value="Login">
+				</form><!--.login-form-->
+			
+			</div><!--.visiter-tab-content-->
+
+			<div id="login-tab-content">
+				<form class="login-form" action="" method="post">
+
+					<div class="help-text">
+						<p>請輸入隨郵件寄出之驗證碼以及密碼</p>
+					</div><!--.help-text-->
+
+					<input type="text" class="input" id="user_login" autocomplete="off" placeholder="在此輸入認證碼">
+					<input type="password" class="input" id="user_pass" autocomplete="off" placeholder="Password">
+					<input type="submit" class="button" value="Login">
+				</form><!--.login-form-->
+				
+			</div><!--.login-tab-content-->
+		</div><!--.tabs-content-->
+	</div><!--.form-wrap-->
+
+	<div class="footer-wrap">
+		<div class="footer">
+			<p>請使用 Internet Explorer 9+ 或 Chrome, Firefox 等瀏覽器以獲得最佳瀏覽效果</p>
+			<p>地址：台北市 115 南港區研究院路二段 128 號</p>
+			<P>電話：886-2-2789-9000</P>
+			<p>傳真：886-2-2785-3569</p>
+		</div>
+	</div>
+	
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script>
+    <script src="/login.js"></script>
+</body>
+</html>
